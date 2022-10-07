@@ -1,0 +1,11 @@
+.btn {
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  background-color: var(--color-white);
+}
+
+.btnInversed {
+  composes: btn;
+  color: var(--color-white);
+  background-color: var(--color-main-black);
+}

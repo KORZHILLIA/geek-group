@@ -1,0 +1,18 @@
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  outline: none;
+  width: 639px;
+  border: 2px solid var(--color-main-gray);
+  border-radius: var(--radius);
+  padding: 11px 52px;
+  padding-right: 10px;
+}
+
+.lense {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}

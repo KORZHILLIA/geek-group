@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+}
+
+.item {
+  position: relative;
+  padding: 5px;
+}
+
+.icon:not(:last-child) {
+  margin-right: 5px;
+}
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  padding: 2px;
+  background-color: var(--color-main-gray);
+  box-shadow: 0 0 0 2px var(--color-white);
+  border-radius: 50%;
+}
