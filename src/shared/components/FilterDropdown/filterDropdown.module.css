@@ -1,0 +1,25 @@
+.generalWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  cursor: pointer;
+}
+
+.visibleWrapper {
+  display: flex;
+  padding: 16px 24px;
+  background-color: var(--color-secondary-gray);
+  color: var(--color-secondary-black);
+  font-size: 14px;
+}
+
+.arrowWrapper {
+  margin-left: auto;
+  pointer-events: none;
+}
+
+.child {
+  width: 100%;
+  padding: 24px;
+  border: 1px solid var(--color-secondary-gray);
+}

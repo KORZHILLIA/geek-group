@@ -1,0 +1,8 @@
+.subnav {
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.afterSlash {
+  color: var(--color-support-gray);
+}

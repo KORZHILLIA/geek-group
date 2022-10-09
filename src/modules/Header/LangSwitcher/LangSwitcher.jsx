@@ -1,19 +1,9 @@
-import { useState } from "react";
-import sprite from "../../../images/svg/sprite.svg";
+import useDropdown from "../../../shared/hooks/useDropdown";
+import DropdownArrow from "../../../shared/components/DropdownArrow";
 import styles from "./langSwitcher.module.css";
 
 const LangSwitcher = ({ langs }) => {
-  const [idx, setIdx] = useState(0);
-  const [boxVisible, setBoxVisible] = useState(false);
-
-  const toggleBox = () => {
-    setBoxVisible((prevBox) => !prevBox);
-  };
-
-  const changeIdx = (index) => {
-    setIdx(index);
-    toggleBox();
-  };
+  const { idx, boxVisible, toggleBox, changeIdx } = useDropdown();
 
   const elements = langs.map((lang, index) => (
     <li className={styles.item} key={lang} onClick={() => changeIdx(index)}>
@@ -22,15 +12,10 @@ const LangSwitcher = ({ langs }) => {
   ));
   return (
     <div className={styles.wrapper}>
-      <span className={styles.lang}>{langs[idx]}</span>
-      <svg
-        className={boxVisible ? styles.arrowRotated : styles.arrow}
-        onClick={toggleBox}
-        width="12"
-        height="12"
-      >
-        <use href={sprite + "#icon-arrow"}></use>
-      </svg>
+      <span className={styles.lang} onClick={toggleBox}>
+        {langs[idx]}
+      </span>
+      <DropdownArrow boxVisible={boxVisible} toggleBox={toggleBox} size="12" />
       {boxVisible && <ul className={styles.list}>{elements}</ul>}
     </div>
   );

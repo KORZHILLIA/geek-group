@@ -1,4 +1,5 @@
 .btn {
+  min-width: 129px;
   padding: 10px 20px;
   border-radius: var(--radius);
   background-color: var(--color-white);

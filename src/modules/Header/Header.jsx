@@ -1,24 +1,31 @@
 import { Link } from "react-router-dom";
-import sprite from "../../images/svg/sprite.svg";
 import HeaderInput from "./HeaderInput";
 import Btn from "../../shared/components/Btn";
 import LangSwitcher from "./LangSwitcher";
 import Reactions from "./Reactions";
-import langs from "../../data/langs";
+import UserDropdown from "./UserSwitcher";
+
+import sprite from "../../images/svg/sprite.svg";
 import reactions from "../../data/reactions-icons";
+import langs from "../../data/langs";
+import userData from "../../data/userData";
+import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <header>
-      <Link to="/main">
+    <header className={styles.header}>
+      <Link to="/main" className={styles.logo}>
         <svg width="151" height="23">
           <use href={sprite + "#icon-logo"}></use>
         </svg>
       </Link>
       <HeaderInput />
-      <Btn type="button" text="Додати товар" isInversed={true} />
+      <div className={styles.addBtn}>
+        <Btn type="button" text="Додати товар" isInversed={true} />
+      </div>
       <LangSwitcher langs={langs} />
-      <Reactions reactions={reactions} size={24} />
+      <Reactions reactions={reactions} size="24" />
+      <UserDropdown menu={userData} />
     </header>
   );
 };

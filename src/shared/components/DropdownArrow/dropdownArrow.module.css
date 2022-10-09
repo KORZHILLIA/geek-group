@@ -1,0 +1,10 @@
+.arrow {
+  padding-top: 4px;
+  transition: transform var(--transition);
+  cursor: pointer;
+}
+
+.arrowRotated {
+  composes: arrow;
+  transform: rotate(180deg);
+}

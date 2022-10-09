@@ -2,8 +2,12 @@
 
 :root {
   --color-main-black: #2d3132;
+  --color-secondary-black: rgb(68, 71, 72);
   --color-white: #fff;
   --color-main-gray: rgba(224, 227, 227, 1);
+  --color-secondary-gray: rgb(239, 241, 241);
+  --color-sort-gray: rgb(92, 95, 96);
+  --color-support-gray: rgb(116, 119, 120);
   --radius: 4px;
   --transition: 250ms linear;
 }
@@ -16,14 +20,34 @@ body {
     sans-serif;
   font-size: 12px;
   line-height: 1.5;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {

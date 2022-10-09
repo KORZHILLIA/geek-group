@@ -1,0 +1,50 @@
+.filter {
+  display: flex;
+}
+
+.filter {
+  font-size: 22px;
+  font-weight: inherit;
+}
+
+.filter,
+.sortText {
+  color: var(--color-sort-gray);
+}
+
+.sortWrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+}
+
+.sortText {
+  margin-right: 12px;
+}
+
+.dropdownBtn {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 8px;
+  padding-left: 12px;
+  margin-right: 2px;
+  color: var(--color-main-black);
+  font-size: inherit;
+}
+
+.toggle {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 12px;
+}
+
+.dropdownBtn,
+.dropdownBtn:hover,
+.dropdownBtn:focus,
+.toggle,
+.toggle:hover,
+.toggle:focus {
+  outline: none;
+  border: none;
+  background-color: var(--color-secondary-gray);
+}
