@@ -5,6 +5,7 @@
 .filter {
   font-size: 22px;
   font-weight: inherit;
+  margin-bottom: var(--gap);
 }
 
 .filter,

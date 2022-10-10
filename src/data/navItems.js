@@ -1,11 +1,11 @@
-import { nanoid } from "nanoid";
+import provideID from "../helpers/provideID";
 
 const navItems = [
   { link: "main", text: "Головна" },
-  { link: "catalogue", text: "Каталог" },
-  { link: "women", text: "Жінкам" },
-  { link: "men", text: "Чоловікам" },
-  { link: "kids", text: "дИТЯЧі речі" },
+  { link: "main/catalogue", text: "Каталог" },
+  { link: "main/women", text: "Жінкам" },
+  { link: "main/men", text: "Чоловікам" },
+  { link: "main/kids", text: "дИТЯЧі речі" },
   { link: "auction", text: "Аукціон" },
   { link: "brands", text: "Бренди" },
   { link: "actions", text: "Акції" },
@@ -13,6 +13,6 @@ const navItems = [
   { link: "blog", text: "Блог" },
 ];
 
-navItems.forEach((item) => (item.id = nanoid(3)));
+provideID(navItems, 3);
 
 export default navItems;

@@ -1,0 +1,22 @@
+.slogan {
+  padding: 10px 0;
+  margin-bottom: 23px;
+  background-color: var(--color-slogan-bgc);
+}
+
+.inner {
+  max-width: 20%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.imgs {
+  display: inline;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 16px;
+  color: var(--color-slogan-text);
+}

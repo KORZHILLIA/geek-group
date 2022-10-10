@@ -1,4 +1,4 @@
-import { nanoid } from "nanoid";
+import provideID from "../helpers/provideID";
 
 const filterLabels = [
   { label: "Категорії" },
@@ -12,6 +12,6 @@ const filterLabels = [
   { label: "Стиль" },
 ];
 
-filterLabels.forEach((label) => (label.id = nanoid(5)));
+provideID(filterLabels, 5);
 
 export default filterLabels;

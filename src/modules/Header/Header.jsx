@@ -6,7 +6,7 @@ import Reactions from "./Reactions";
 import UserDropdown from "./UserSwitcher";
 
 import sprite from "../../images/svg/sprite.svg";
-import reactions from "../../data/reactions-icons";
+import reactions from "../../data/reactionsIcons";
 import langs from "../../data/langs";
 import userData from "../../data/userData";
 import styles from "./header.module.css";

@@ -1,0 +1,8 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: calc((100% - 48px) / 3);
+  margin-left: var(--gap);
+  gap: var(--gap);
+}

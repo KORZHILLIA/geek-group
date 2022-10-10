@@ -1,0 +1,8 @@
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.link {
+  font-size: 14px;
+  color: var(--color-main-black);
+}

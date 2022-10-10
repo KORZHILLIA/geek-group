@@ -1,19 +1,22 @@
+import Slogan from "./shared/components/Slogan";
 import Header from "./modules/Header";
 import Nav from "./modules/Nav";
-import MainPage from "./modules/MainPage/MainPage";
-
+import UserRoutes from "./UserRoutes";
+import Footer from "./modules/Footer";
 import navItems from "./data/navItems";
 
 function App() {
   return (
     <>
+      <Slogan />
       <div className="container">
         <Header />
       </div>
       <Nav items={navItems} />
       <div className="container">
-        <MainPage />
+        <UserRoutes />
       </div>
+      <Footer />
     </>
   );
 }

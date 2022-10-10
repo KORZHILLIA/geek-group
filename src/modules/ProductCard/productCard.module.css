@@ -1,0 +1,95 @@
+.card {
+  padding: var(--gap);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px var(--color-secondary-gray);
+}
+
+.imgWrapper {
+  position: relative;
+  padding: 21px 28px 21px 29px;
+  margin-bottom: 16px;
+}
+
+.heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.heartColored {
+  composes: heart;
+  fill: red;
+}
+
+.top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: var(--color-top);
+  font-size: 10px;
+}
+
+.metaUpper {
+  margin-bottom: var(--gap);
+}
+
+.manuf {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.metaLower {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+
+.pastPrice {
+  text-decoration: line-through;
+  color: var(--color-dark-gray);
+}
+
+.price {
+  font-weight: 500;
+}
+
+.seller {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.location {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.price,
+.locationName,
+.sellerName {
+  color: var(--color-main-black);
+}
+
+.locationName {
+  margin-left: 4px;
+}
+
+.person {
+  display: flex;
+}
+
+.sellerImg {
+  margin-right: 8px;
+}

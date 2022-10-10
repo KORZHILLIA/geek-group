@@ -7,7 +7,13 @@
   --color-main-gray: rgba(224, 227, 227, 1);
   --color-secondary-gray: rgb(239, 241, 241);
   --color-sort-gray: rgb(92, 95, 96);
-  --color-support-gray: rgb(116, 119, 120);
+  --color-dark-gray: rgb(116, 119, 120);
+  --color-footer-border: rgba(196, 199, 199, 1);
+  --color-slogan-bgc: rgba(203, 220, 255, 1);
+  --color-slogan-text: rgba(15, 26, 52, 1);
+  --color-top: rgb(180, 255, 240);
+
+  --gap: 24px;
   --radius: 4px;
   --transition: 250ms linear;
 }
@@ -51,7 +57,8 @@ button {
 }
 
 .container {
-  width: 1320px;
+  min-width: 1344px;
+  max-width: 1344px;
   margin: 0 auto;
   padding: 0 12px;
 }

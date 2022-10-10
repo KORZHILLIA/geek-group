@@ -1,6 +1,6 @@
 .inputWrapper {
   position: relative;
-  margin-right: 24px;
+  margin-right: var(--gap);
 }
 
 .input {

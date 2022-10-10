@@ -1,6 +1,6 @@
 .list {
   display: flex;
-  margin-right: 24px;
+  margin-right: var(--gap);
 }
 
 .item {
