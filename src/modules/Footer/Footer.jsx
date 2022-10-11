@@ -17,10 +17,15 @@ const Footer = () => {
           <div className={styles.wrapper}>
             <FooterLinks links={footerLinks.linksInfo} />
           </div>
-          <div className={styles.app}>
+          <a
+            href="#"
+            target="_blank"
+            rel="norefferer noopener"
+            className={styles.app}
+          >
             <p className={styles.mobile}>Мобільний додаток</p>
             <img src={google} alt="google-play" width="146" height="44" />
-          </div>
+          </a>
         </div>
         <p className={styles.lower}>
           <span>&#169;</span> 2022 Monvalise

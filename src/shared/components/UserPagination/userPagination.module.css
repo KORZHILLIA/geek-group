@@ -1,0 +1,56 @@
+.general {
+  display: flex;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 112px;
+}
+
+.item {
+  margin-right: 8px;
+}
+
+.item > a {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-sort-gray);
+  border: 2px solid var(--color-footer-border);
+  border-radius: 50%;
+}
+
+.item > a:hover,
+.item > a:focus {
+  color: unset;
+  background-color: unset;
+}
+
+.item > span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-main-black) !important;
+  border: 2px solid var(--color-main-black) !important;
+  background-color: var(--color-white) !important;
+  border-radius: 50%;
+}
+
+.prev,
+.next {
+  padding: 5px 11px;
+  border: 2px solid var(--color-footer-border);
+  border-radius: var(--gap);
+  color: var(--color-sort-gray);
+  cursor: pointer;
+}
+
+.prev {
+  margin-right: 8px;
+}
+
+/* .next {
+    ml
+} */

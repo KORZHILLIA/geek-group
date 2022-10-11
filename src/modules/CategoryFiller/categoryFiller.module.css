@@ -1,3 +1,8 @@
+.categoryWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -5,4 +10,9 @@
   flex-basis: calc((100% - 48px) / 3);
   margin-left: var(--gap);
   gap: var(--gap);
+}
+
+.pagination {
+  max-width: 50%;
+  margin: 0 auto;
 }

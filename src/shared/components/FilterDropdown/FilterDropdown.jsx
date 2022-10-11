@@ -9,8 +9,8 @@ const FilterDropdown = ({ children, label }) => {
     setState((prevState) => !prevState);
   };
   return (
-    <div className={styles.generalWrapper} onClick={toggleBox}>
-      <div className={styles.visibleWrapper}>
+    <div className={styles.generalWrapper}>
+      <div className={styles.visibleWrapper} onClick={toggleBox}>
         <span className={styles.label}>{label}</span>
         <div className={styles.arrowWrapper}>
           <DropdownArrow boxVisible={state} toggleBox={toggleBox} size="20" />

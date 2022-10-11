@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  cursor: pointer;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.checkbox {
+  margin-right: 16px;
+}
+
+.label {
+  color: var(--color-secondary-black);
+}
+
+.quantity {
+  margin-left: auto;
+  color: var(--color-dark-gray);
+}

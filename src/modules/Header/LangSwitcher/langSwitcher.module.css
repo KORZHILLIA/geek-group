@@ -16,7 +16,7 @@
 
 .wrapper > .list {
   position: absolute;
-  bottom: -200%;
+  bottom: -270%;
   left: -5px;
   border: 1px solid var(--color-main-gray);
   border-radius: var(--radius);
@@ -25,6 +25,7 @@
 .item {
   display: block;
   padding: 0 4px;
+  font-size: 16px;
 }
 
 .item:hover {

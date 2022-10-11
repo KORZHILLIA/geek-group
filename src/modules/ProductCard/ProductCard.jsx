@@ -11,6 +11,7 @@ const ProductCard = ({
   pastPrice,
   price,
   top,
+  organic,
   location,
   sellerName,
   sellerImg,
@@ -43,6 +44,7 @@ const ProductCard = ({
           <use href={sprite + "#icon-union"}></use>
         </svg>
         {top && <span className={styles.top}>ТОП</span>}
+        {organic && <span className={styles.organic}>organic</span>}
       </div>
       <div className={styles.meta}>
         <div className={styles.metaUpper}>

@@ -8,6 +8,7 @@ const Nav = ({ items }) => {
     const getLinkClassName = ({ isActive }) => {
       return isActive ? styles.itemActive : styles.item;
     };
+
     return (
       <li key={id}>
         <NavLink className={getLinkClassName} to={`/${link}`}>

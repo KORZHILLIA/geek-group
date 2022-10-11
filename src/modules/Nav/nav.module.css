@@ -10,6 +10,8 @@
   position: relative;
   display: block;
   padding: 16px;
+  font-size: 13px;
+  font-family: var(--font-medium);
 }
 
 .itemActive {
@@ -24,9 +26,4 @@
   width: 100%;
   height: 2px;
   background-color: var(--color-secondary-black);
-}
-
-.link {
-  font-size: 13px;
-  font-weight: 500;
 }
