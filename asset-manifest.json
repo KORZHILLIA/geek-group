@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/geek-group/static/css/main.a39e5564.css",
+    "main.js": "/geek-group/static/js/main.4e4c48cc.js",
+    "static/css/432.79940570.chunk.css": "/geek-group/static/css/432.79940570.chunk.css",
+    "static/js/432.401f62e6.chunk.js": "/geek-group/static/js/432.401f62e6.chunk.js",
+    "static/css/19.a445126b.chunk.css": "/geek-group/static/css/19.a445126b.chunk.css",
+    "static/js/19.13cdcd0e.chunk.js": "/geek-group/static/js/19.13cdcd0e.chunk.js",
+    "static/js/537.8ed927d5.chunk.js": "/geek-group/static/js/537.8ed927d5.chunk.js",
+    "static/js/600.7cd508d5.chunk.js": "/geek-group/static/js/600.7cd508d5.chunk.js",
+    "static/media/Stolzl-Regular.ttf": "/geek-group/static/media/Stolzl-Regular.e894a221d17f0afecafc.ttf",
+    "static/media/Stolzl-Medium.ttf": "/geek-group/static/media/Stolzl-Medium.1e3f762481c5dcda273c.ttf",
+    "static/media/Stolzl-Medium.woff": "/geek-group/static/media/Stolzl-Medium.fd5dba5f1856fb73d0f5.woff",
+    "static/media/Stolzl-Regular.woff": "/geek-group/static/media/Stolzl-Regular.1c3b5cf8d78894be0798.woff",
+    "static/media/Stolzl-Regular.woff2": "/geek-group/static/media/Stolzl-Regular.5cbda06fcf6155861c21.woff2",
+    "static/media/Stolzl-Medium.woff2": "/geek-group/static/media/Stolzl-Medium.e48c0686c6dfd1db2c68.woff2",
+    "static/media/sprite.svg": "/geek-group/static/media/sprite.12dea67d2dfae173c51256e6e06e0885.svg",
+    "index.html": "/geek-group/index.html",
+    "main.a39e5564.css.map": "/geek-group/static/css/main.a39e5564.css.map",
+    "main.4e4c48cc.js.map": "/geek-group/static/js/main.4e4c48cc.js.map",
+    "432.79940570.chunk.css.map": "/geek-group/static/css/432.79940570.chunk.css.map",
+    "432.401f62e6.chunk.js.map": "/geek-group/static/js/432.401f62e6.chunk.js.map",
+    "19.a445126b.chunk.css.map": "/geek-group/static/css/19.a445126b.chunk.css.map",
+    "19.13cdcd0e.chunk.js.map": "/geek-group/static/js/19.13cdcd0e.chunk.js.map",
+    "537.8ed927d5.chunk.js.map": "/geek-group/static/js/537.8ed927d5.chunk.js.map",
+    "600.7cd508d5.chunk.js.map": "/geek-group/static/js/600.7cd508d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a39e5564.css",
+    "static/js/main.4e4c48cc.js"
+  ]
+}
